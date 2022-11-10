@@ -9,7 +9,7 @@ I updated a local restaurant website that is outdated into an modern styled webs
 
 ## Credits:
 
-https://getbootstrap.com/
-https://fontawesome.com/
-https://fonts.google.com/
-https://www.udemy.com/
+- https://getbootstrap.com/
+- https://fontawesome.com/
+- https://fonts.google.com/
+- https://www.udemy.com/
