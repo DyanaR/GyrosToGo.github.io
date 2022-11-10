@@ -45,9 +45,9 @@ h5 {
   padding: 0.5% 15%;
 }
 /* END OF NAVBAR */
-
+images/gyros1.png
 .gyros-cover{
-  background-image: url("gyrosToGo1.png");
+  background-image: url("images/gyrosToGo1.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
