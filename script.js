@@ -1,7 +1,7 @@
 
 
-const menuBtns = document.querySelectorAll('.menu-btn');
-const foodItems = document.querySelectorAll('.food-item');
+const menuBtns = document.querySelectorAll(".menu-btn");
+const foodItems = document.querySelectorAll(".food-item");
 
 let activeBtn = "appetizers";
 
@@ -31,3 +31,4 @@ function showFoodMenu(newMenuBtn){
         }
     });
 }
+
