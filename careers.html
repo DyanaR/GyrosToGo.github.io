@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Lato:wght@400;900&family=Merriweather:wght@400;900&family=Montserrat:wght@100;400;900&family=Oswald&family=Roboto:wght@400;900&family=Ubuntu&display=swap"
     rel="stylesheet">
   <!-- CSS Stylesheets -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
@@ -59,8 +59,7 @@
 
       <!--Grid column-->
       <div class="col-md-9 mb-md-0 mb-5">
-        <form action="https://formspree.io/f/xbjbkdab" method="POST">
-
+        <form class="careers">
           <!--Grid row-->
           <div class="row">
             <!--Grid column-->
@@ -98,14 +97,14 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-md-6 contactrow">
-              <label for="c-form-location">
+              <label for="c-form-loc">
                 <span class="label-text">Location:*</span>
                 <span class="contact-error"></span>
               </label>
-              <select name="location" class="c-form-location form-control" id="c-form-location" required>
+              <select name="loc"class="c-form-loc form-control" id="loc" required>
                 <option value="">Select</option>
-                <option value="Arlington1">710 E Sublett Rd</option>
-                <option value="Arlington2">5312 Park Springs Blvd</option>
+                <option value="710 E Sublett Rd">710 E Sublett Rd</option>
+                <option value="5312 Park Springs Blvd">5312 Park Springs Blvd</option>
               </select>
             </div>
             <!--Grid column-->
@@ -114,12 +113,12 @@
                 <span class="label-text">Desired Position:*</span>
                 <span class="contact-error"></span>
               </label>
-              <select name="position" class="c-form-position form-control" id="c-form-position" required>
+              <select name="position" class="c-form-position form-control" id="position" required>
                 <option value="">Select</option>
-                <option value="cashierPos">Cashier</option>
-                <option value="managerPos">Manager</option>
-                <option value="linePos">Line Cook</option>
-                <option value="prepPos">Prep Cook</option>
+                <option value="Cashier">Cashier</option>
+                <option value="Manager">Manager</option>
+                <option value="Line Cook">Line Cook</option>
+                <option value="Prep Cook">Prep Cook</option>
               </select>
             </div>
           </div>
@@ -131,11 +130,11 @@
                 <span class="label-text">Desired Shift:*</span>
                 <span class="contact-error"></span>
               </label>
-              <select name="shift" class="c-form-shift form-control" id="c-form-shift" required>
+              <select name="shift" class="c-form-shift form-control" id="shift" required>
                 <option value="">Select</option>
-                <option value="AMshift">AM</option>
-                <option value="PMshift">PM</option>
-                <option value="flexibleShift">Flexible</option>
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+                <option value="Flexible">Flexible</option>
               </select>
             </div>
             <!--Grid column-->
@@ -144,81 +143,61 @@
                 <span class="label-text">Years of Resturant Experience:*</span>
                 <span class="contact-error"></span>
               </label>
-              <select name="experience" class="c-form-experience form-control" id="c-form-experience" required>
+              <select name="experience" class="c-form-experience form-control" id="experience" required>
                 <option value="">Select</option>
-                <option value="01years">0-1</option>
-                <option value="25years">2-5</option>
-                <option value="5years">More than 5</option>
+                <option value="1 year">0-1</option>
+                <option value="2 to 5 years">2-5</option>
+                <option value="+ 5 years">More than 5</option>
               </select>
             </div>
           </div>
           <!--Grid row button-->
           <div class="col-md-12 col-sm-4 col-xs-4 contactbutton">
-            <button type="submit" class="btn btn-warning btn-block w-100 submitbutton">Submit</button>
+            <button type="submit" class="btn btn-warning btn-block w-100 submit">Submit</button>
+              <p class="message" id="message"></p>
           </div>
-          <div class="status"></div>
+
+
+
+
+
         </form>
       </div>
     </div>
   </section>
+
   <!-- end of form -->
 
   <!-- Footer   -->
-  <div class="row footer-container">
-    <div class="col-lg-3 col-md-3">
-      <h5>Quick Links</h5>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 quick-links">Home</a></li>
-        <li class="nav-item mb-2"><a href="menu.html" class="nav-link p-0 quick-links">Menu</a></li>
-        <li class="nav-item mb-2"><a href="locations.html" class="nav-link p-0 quick-links">Locations</a></li>
-        <li class="nav-item mb-2"><a href="careers.html" class="nav-link p-0 quick-links">Careers</a></li>
-      </ul> <br>
-      <ul class="list-unstyled d-flex">
+  <div class="footer-container">
+    <div class="row links">
+      <div class="col-lg-3">
+      <a href="index.html" class="nav-link p-0 quick-links">Home</a>
+      </div>
+      <div class="col-lg-3">
+        <a href="menu.html" class="nav-link p-0 quick-links">Menu</a>
+      </div>
+      <div class="col-lg-3">
+        <a href="locations.html" class="nav-link p-0 quick-links">Locations</a>
+      </div>
+      <div class="col-lg-3">
+        <a href="careers.html" class="nav-link p-0 quick-links">Careers</a>
+      </div>
+    </div>
+      <ul class="list-unstyled d-flex social-media">
         <a href="https://www.instagram.com/gyrostogo1/"><i class="fa-brands fa-instagram fa-2x icon-image"></i> </a>
         <a class="ms-3" href="https://www.facebook.com/gyrostogo1"><i class="fa-brands fa-facebook fa-2x icon-image"></i> </a>
         <a class="ms-3" href="https://mobile.twitter.com/togyros"><i class="fa-brands fa-twitter fa-2x icon-image"></i> </a>
       </ul>
-    </div>
-
-    <div class="col-lg-3 col-md-3 business-hours">
-      <h5>Business Hours</h5>
-      <ul class="nav flex-column">
-        <p>
-          <strong>Monday</strong> Closed <br>
-          <strong>Tuesday</strong> 10:00 am - 8:00 pm <br>
-          <strong>Wednesday</strong> 10:00 am - 8:00 pm <br>
-          <strong>Thursday</strong> 10:00 am - 8:00 pm <br>
-          <strong>Friday</strong> 10:00 am - 8:00 pm <br>
-          <strong>Saturday</strong> 10:00 am - 8:00 pm <br>
-          <strong>Sunday</strong> 10:00 am - 8:00 pm
-        </p>
-      </ul>
-    </div>
-
-    <div class="col-lg-3 col-md-3">
-      <h5>Locations</h5>
-      <ul class="nav flex-column">
-        <p> 710 E Sublett Rd #101 <br>
-          Arlington, TX 76018 <br>
-          (817) 419-2878 <br>
-          <a class="directions" href="https://www.google.com/maps/dir//gyros+to+go/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x864e627a52f19ddd:0x50aa690cf390a17e?sa=X&ved=2ahUKEwi3zdLyl835AhUyomoFHf_wBRMQ9Rd6BAhfEAU">Get Directions</a>
-        </p>
-        <p> 5312 Park Springs Blvd #100 <br>
-          Arlington, TX 76017 <br>
-          (682) 587-4156 <br>
-          <a class="directions" href="https://www.google.com/maps/dir/32.6202412,-97.0725475/gyros+to+go+park/@32.6491088,-97.184555,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x864e63bcae243aad:0x463fde4443f88af1!2m2!1d-97.167409!2d32.6596883">Get
-            Directions</a>
-        </p>
-      </ul>
-    </div>
-
     <div class="copyright-box">
       <p>© 2022 GyrosToGo</p>
     </div>
   </div>
   <!-- end of footer -->
 
+  <!-- For Navbar -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="js/app.js" charset="utf-8"></script>
 
 </body>
 
