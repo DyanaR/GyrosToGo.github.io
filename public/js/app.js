@@ -51,4 +51,4 @@ careers.addEventListener("submit", function(event){
   xhr.send(JSON.stringify(formData))
 })
 
-// document.querySelectorAll("#list .item")[2].style.color = "blue"; //to modify
+
